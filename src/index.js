@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Provider} from "react-redux";
+import { PersistGate } from 'redux-persist/integration/react'
+import configureStore from './store';
+import { router } from "./router";
+import "babel-polyfill";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+const { store, persistor } = configureStore();
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>,
+  	<Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        {router}
+      </PersistGate>
+    </Provider>,
   document.getElementById('root')
 );
 
