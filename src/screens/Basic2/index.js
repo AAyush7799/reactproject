@@ -9,7 +9,7 @@ class Basic2 extends React.Component {
   render() {
     return (
       <div className="basic_main_cont" id="basic_main_cont">
-		    <BasicMain/>
+		    <BasicMain/> 
       </div>
     );
   }
