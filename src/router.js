@@ -1,6 +1,8 @@
 // import Libraries
 import React from "react";
-import {Router, Route} from "react-router";
+// import {Router, Route} from "react-router";
+// import {Router, Route} from "react-router-dom";
+import { HashRouter as Router, Route } from 'react-router-dom'
 // import store and history
 import configureStore from './store';
 import EnsureLoggedInContainer from "./middleware/EnsureLoggedInContainer";
