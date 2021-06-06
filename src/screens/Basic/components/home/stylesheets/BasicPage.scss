@@ -1,0 +1,68 @@
+*{
+    -webkit-font-smoothing: antialiased;
+}
+@font-face {
+    font-family: 'Gilroy';
+    // src: url('/assets/fonts/');
+    src: url('/assets/fonts/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('/assets/fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Gilroy-Regular.woff') format('woff'),
+        url('/assets/fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    // src: url('/assets/fonts/Gilroy-Bold.eot');
+    src: url('/assets/fonts/Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('/assets/fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('/assets/fonts/Gilroy-Bold.woff') format('woff'),
+        url('/assets/fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/assets/fonts/Gilroy-Medium.eot');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('/assets/fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('/assets/fonts/Gilroy-Medium.woff') format('woff'),
+        url('/assets/fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+.fontRegularCustom{
+    font-family: 'Gilroy' !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+.fontMediumCustom{
+    font-family: 'Gilroy' !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+}
+.fontBoldCustom{
+    font-family: 'Gilroy' !important;
+    font-weight: bold !important;
+    font-style: normal !important;
+}
+.basic_main_cont{
+    width: 100%;
+}
+.basic_main{
+    width: 100%;
+}
+.basic_page_cont{
+    width: 100%;
+}
+.basic_page{
+    width: 100%;
+    height: 600px;
+    border: 1px solid red;
+    color: #000000;
+}

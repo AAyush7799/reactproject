@@ -1,0 +1,52 @@
+.map_body{
+  width: 100%;
+  background: #e2e2e2;
+  margin-top: 150px;
+}
+.body_block{
+  width: 80%;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block_heading{
+  margin-left: 10px;
+}
+.block_data{
+  width: 100%;
+}
+.block_data_one{
+  width: 30%;
+  float: left;
+  border-bottom: 1px solid black;
+}
+.block_data_two{
+  width: 30%;
+  float: left;
+  border-bottom: 1px solid black;
+}
+.block_data_three{
+  width: 30%;
+  float: left;
+  border-bottom: 1px solid black;
+}
+.data_line{
+  width: 100%;
+  margin-bottom: 5px;
+}
+.data_line>img{
+  width: 20px;
+  float: left;
+}
+.data_line_value{
+  font-size: 16px;
+  font-family: lato;
+  font-weight: 300;
+  width: 50%;
+  float: left;
+  line-height: 23px;
+  margin-left: 10px;
+}
+.clear{
+  clear: both;
+}
